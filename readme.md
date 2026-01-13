@@ -102,7 +102,7 @@ chmod +x ./start_ads.sh
 ```
 
 ### Making the .desktop file
-A little-known mechanism underlying your desktop environment is a system created by freeDesktop.org.
+A little-known mechanism underlying your desktop environment is a system created by freedesktop.org.
 When you search for applications in drun or gnome, this is the system that's being used to find and execute them.
 
 Each application usually creates it's own `.desktop` file in `~/.local/share/applications` or `/usr/share/applications`.
@@ -125,8 +125,10 @@ What this file essentially does is two things:
 1. Creates a searchable application entry called 'Keysight ADS'
 2. Runs the start_ads.sh script we created when we execute it
 
-Now you should have a working installation of ADS that works like your other applications :) 
+Now you should have a working installation of ADS that works like your other applications :)  
 > Notice: This document and the included scripts may undergo updates in the near future!
 
 --------------
-> Last updated jan 12th 2026 - danielkm@github.com
+> Last updated jan 13th 2026 - danielkm@github.com
+
+> thanks to https://github.com/markdowncss/retro for css theme used to render instructions.html
