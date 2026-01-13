@@ -17,5 +17,5 @@ export PATH=$ADS_LICENSE_DIR/bin:$PATH
 cd $HOME/Applications/KeysightADS/
 
 # here we are launching the ads application, godspeed
-source $HPEESOF_DIR/bin/ads
+exec $HPEESOF_DIR/bin/ads
 
