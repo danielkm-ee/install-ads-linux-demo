@@ -56,9 +56,9 @@ The last two lines make the ADS programs executable from any shell. After adding
 start running ADS using `$ ads`
 
 You could totally stop here if you want to! The next section makes the ADS program show up when you search "Keysight ADS" in your desktop environments search bar, so I 
-do reccommend following through there as well.
-> If you run into issues here, you may need to install the KorneShell: `$ sudo apt install ksh`. not sure why, but the ads executable expects a ksh shell environment.
-> If this doesn't fix your issue, double check that the previous steps have been followed correctly, and feel free to reach out to me (daniel) on discord
+do reccommend following through there as well.  
+> If you run into issues here, you may need to install the KorneShell: `$ sudo apt install ksh`. not sure why, but the ads executable expects a ksh shell environment.  
+> If this doesn't fix your issue, double check that the previous steps have been followed correctly, and feel free to reach out to me on discord
 
 
 ## Adding a Desktop Entry for Keysight ADS
@@ -121,14 +121,14 @@ Icon=/usr/local/ADS2026_Update1/doc/images/keysightlogo.png
 Terminal=false
 Categories=Development
 ```
-What this file essentially does is two things:
-1. Creates a searchable application entry called 'Keysight ADS'
+What this file essentially does is two things:  
+1. Creates a searchable application entry called 'Keysight ADS'  
 2. Runs the start_ads.sh script we created when we execute it
 
 Now you should have a working installation of ADS that works like your other applications :)  
 > Notice: This document and the included scripts may undergo updates in the near future!
 
 --------------
-> Last updated jan 13th 2026 - danielkm@github.com
+> Last updated jan 13th 2026 - danielkm-ee@github.com
 
-> thanks to https://github.com/markdowncss/retro for css theme used to render instructions.pdf
+> thanks to https://github.com/markdowncss/retro for css theme used to render the pdf version
