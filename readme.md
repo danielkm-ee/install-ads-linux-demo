@@ -115,7 +115,7 @@ Here is `ads.desktop`:
 Version=2026.1
 Name=Keysight ADS
 Type=Application
-Exec=/home/<ENTER USERNAME HERE>/Applications/KeysightADS/start_ads.sh
+Exec=/usr/bin/env ADS_NO_BACKGROUND=on /home/<ENTER USERNAME HERE>/Applications/KeysightADS/start_ads.sh
 Path=/home/<ENTER USERNAME HERE>/Applications/KeysightADS
 Icon=/usr/local/ADS2026_Update1/doc/images/keysightlogo.png
 Terminal=false
@@ -131,4 +131,4 @@ Now you should have a working installation of ADS that works like your other app
 --------------
 > Last updated jan 13th 2026 - danielkm@github.com
 
-> thanks to https://github.com/markdowncss/retro for css theme used to render instructions.html
+> thanks to https://github.com/markdowncss/retro for css theme used to render instructions.pdf
