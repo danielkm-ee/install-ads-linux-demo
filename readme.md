@@ -29,7 +29,7 @@ Now that we have our license stored, we can run their utility to setup our 'lice
 > this assumes your working directory is still `/usr/local/ADS2026_Update1/Licensing`! use `$ pwd` to check this.
 ```
 $ cd 2025.4/linux_x86_64/bin/
-$ ./lmgrd /usr/local/ADS2026_Update1/Licensing/lic/license.lic -l /usr/local/ADS2026_Update1/Licensing/log/lic-debug.log
+$ ./lmgrd -c /usr/local/ADS2026_Update1/Licensing/lic/license.lic -l /usr/local/ADS2026_Update1/Licensing/log/lic-debug.log
 ```
 > Note: Make sure you have those filepaths correct if you changed anything previously.
 Now we should have our license server active on our machine. 
